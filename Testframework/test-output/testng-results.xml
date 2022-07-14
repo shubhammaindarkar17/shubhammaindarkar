@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T19:20:31 IST" name="Default suite" finished-at="2022-07-14T19:20:54 IST" duration-ms="22755">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T19:20:31 IST" name="Default test" finished-at="2022-07-14T19:20:54 IST" duration-ms="22755">
+      <class name="com.qa.testLayer.ProductPageTest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.qa.testLayer.ProductPageTest@2145b572]" started-at="2022-07-14T19:20:33 IST" name="startup" finished-at="2022-07-14T19:20:39 IST" duration-ms="6852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verifyAddToCart(java.lang.String)[pri:0, instance:com.qa.testLayer.ProductPageTest@2145b572]" started-at="2022-07-14T19:20:39 IST" name="verifyAddToCart" data-provider="searchdata" finished-at="2022-07-14T19:20:54 IST" duration-ms="14264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.qa.testLayer.ProductPageTest@2145b572]" started-at="2022-07-14T19:20:54 IST" name="teraDown" finished-at="2022-07-14T19:20:54 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- com.qa.testLayer.ProductPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
